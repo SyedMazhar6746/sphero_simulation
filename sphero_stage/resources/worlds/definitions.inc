@@ -25,14 +25,14 @@ define sphero position
 
 define floorplan model
 (
-	# sombre, sensible, artistic
+	# sombre, sensible, artistic, gray30
 	color "gray30"
 
 	# most maps will need a bounding box
 	boundary 1
 
 	gui_nose 1
-	gui_grid 0
+	gui_grid 1
 	gui_outline 0
 
 	update_interval  10 # update timestep in milliseconds
