@@ -1,3 +1,9 @@
+# How to run the code (Specific to one robot)
+rosrun sphero_stage start.py.
+
+rosrun sphero_stage final_main_code.py
+- use 2D nav on top of rviz to give the goal point in the map.
+
 # sphero_stage
 
 Configuration and launch files for simulating Sphero robots in a simple 2D simulator Stage.
